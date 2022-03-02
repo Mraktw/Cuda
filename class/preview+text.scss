@@ -1,0 +1,19 @@
+.preview{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    width: 900px;
+}
+
+.preview-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 139px;
+    padding-bottom:54px ;
+    font-family: 'Titillium Web';
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: $light;
+    text-indent: 65px;    
+}

@@ -1,0 +1,40 @@
+.slot__title{
+    font-family: 'Titillium Web';
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: $light;  
+    padding-top: 60px;
+    padding-bottom:27px;
+    text-align: center;
+}
+
+.slot__text{
+font-family: 'Titillium Web';
+font-size: $sixteen;
+line-height: 24px;
+font-weight: 300;
+letter-spacing: 0.02em;
+color: $light;
+margin-top: 30px;
+width: 300px;
+text-align: center;
+}
+
+.slot__text_size_a{
+width: 200px;
+}
+
+.slot__text_size_b{
+width: 190px;    
+}
+
+.slot__text_size_c{
+    width: 200px;
+}
+
+.slot__text_size_d{
+    width: 200px;
+}

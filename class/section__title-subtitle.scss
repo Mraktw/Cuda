@@ -1,0 +1,33 @@
+.section__title{
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: $light;
+    padding-top: 30px;
+    text-transform: uppercase;   
+}
+
+.section__subtitle{
+    font-size: $twenty;
+    font-family: 'Titillium Web';
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: $light;
+    justify-content: center;
+    text-transform: none;
+    padding-top: 50px;
+    position: relative;
+    &:after {
+        content: '';
+        background-color: #000000;;
+        height: 4px;
+        display: block;
+        width: 87px;
+        position: absolute;
+        right: calc(50% - 44px);
+        top: 6px;
+      }
+}
